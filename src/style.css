@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.square {
+  width: var(--width);
+  height: var(--height);
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  --width: 75px;
+  --height: var(--width);
+}
